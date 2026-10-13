@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Inter";
+    src: url("Inter.ttf");
+}
+
+@font-face {
+    font-family: "Digital";
+    src: url("digital.otf");
+}
+
+* {
+    font-family: "Inter";
+}
+
+.scoreboard {
+    background-color: rgb(33, 33, 131);
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.match {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.name {
+    color: white;
+    margin: 0;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.score {
+
+    color: #f52b2b;
+    font-family: "Digital";
+
+    font-size: 80px;
+
+}
+
+.add-btn-div {
+    margin-top: 30px;
+    display: flex;
+    gap: 7px;
+}
+
+.add-btn {
+    background: transparent;
+    font-family: "Digital";
+    border: 2px solid #bbbbba;
+    color: #bbbbba;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.reset {
+    color: white;
+    background-color: #f52b2b;
+    border: 3px solid black;
+    padding: 12px 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
